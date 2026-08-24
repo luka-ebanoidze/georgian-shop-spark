@@ -77,16 +77,36 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "Webio.ge — Easy Online Stores for Georgian Small Businesses" },
+      {
+        name: "description",
+        content:
+          "Pick a template, add your products, accept BOG & TBC payments. Webio.ge gets your cafe, market or shop online in one sitting — from 29 ₾/month.",
+      },
+      { name: "author", content: "Webio.ge" },
+      {
+        property: "og:title",
+        content: "Webio.ge — Easy Online Stores for Georgian Small Businesses",
+      },
+      {
+        property: "og:description",
+        content:
+          "Pick a template, add your products, accept BOG & TBC payments. Live in one sitting — from 29 ₾/month.",
+      },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:site", content: "@Lovable" },
     ],
     links: [
+      { rel: "preconnect", href: "https://fonts.googleapis.com" },
+      {
+        rel: "preconnect",
+        href: "https://fonts.gstatic.com",
+        crossOrigin: "anonymous",
+      },
+      {
+        rel: "stylesheet",
+        href: "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@500;600;700;800&display=swap",
+      },
       {
         rel: "stylesheet",
         href: appCss,
