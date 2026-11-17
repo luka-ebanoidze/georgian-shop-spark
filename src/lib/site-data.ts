@@ -21,7 +21,7 @@ export const templates: TemplateItem[] = [
   { slug: "bazari", name: "ბაზარი", category: "market", tagline: "ბოსტნეული და პროდუქტები" },
   { slug: "kalata", name: "კალათა", category: "market", tagline: "სასურსათო მიწოდებით" },
   { slug: "vitrina", name: "ვიტრინა", category: "shop", tagline: "უნივერსალური მაღაზია" },
-  { slug: "tekhnika", name: "ტექნიკა", category: "shop", tagline: "ელექტronika და აქსესუარები" },
+  { slug: "tekhnika", name: "ტექნიკა", category: "shop", tagline: "ელექტრონიკა და აქსესუარები" },
   { slug: "ateli", name: "ატელიე", category: "boutique", tagline: "ტანსაცმლისა და ბრენდისთვის" },
   { slug: "nino", name: "ნინო", category: "boutique", tagline: "ხელნაკეთი ნივთებისთვის" },
 ];

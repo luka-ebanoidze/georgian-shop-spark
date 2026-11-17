@@ -42,10 +42,10 @@ export const Route = createFileRoute("/")({
 });
 
 const fanned = [
-  { t: templates[0], rot: "-rotate-12", pos: "left-0 top-10 z-10", w: "w-[62%]" },
-  { t: templates[2], rot: "-rotate-6", pos: "left-[14%] top-4 z-20", w: "w-[62%]" },
-  { t: templates[6], rot: "rotate-3", pos: "left-[28%] top-8 z-30", w: "w-[62%]" },
-  { t: templates[4], rot: "rotate-12", pos: "left-[40%] top-16 z-40", w: "w-[62%]" },
+  { t: templates[0]!, rot: "-rotate-12", pos: "left-0 top-10 z-10", w: "w-[62%]" },
+  { t: templates[2]!, rot: "-rotate-6", pos: "left-[14%] top-4 z-20", w: "w-[62%]" },
+  { t: templates[6]!, rot: "rotate-3", pos: "left-[28%] top-8 z-30", w: "w-[62%]" },
+  { t: templates[4]!, rot: "rotate-12", pos: "left-[40%] top-16 z-40", w: "w-[62%]" },
 ];
 
 const steps = [
@@ -103,7 +103,7 @@ function HomePage() {
   return (
     <>
       {/* HERO */}
-      <section className="mx-auto max-w-6xl px-4 pb-16 pt-12 sm:px-6 sm:pb-24 sm:pt-20">
+      <section className="mx-auto max-w-6xl overflow-x-clip px-4 pb-16 pt-12 sm:px-6 sm:pb-24 sm:pt-20">
         <div className="grid items-center gap-14 lg:grid-cols-2">
           <div>
             <span className="inline-flex items-center gap-2 rounded-full border border-border bg-secondary/60 px-3 py-1.5 text-xs font-semibold text-primary">
