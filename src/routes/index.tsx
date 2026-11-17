@@ -42,10 +42,10 @@ export const Route = createFileRoute("/")({
 });
 
 const fanned = [
-  { t: templates[0], rot: "-rotate-12", pos: "left-0 top-10 z-10", w: "w-[62%]" },
-  { t: templates[2], rot: "-rotate-6", pos: "left-[14%] top-4 z-20", w: "w-[62%]" },
-  { t: templates[6], rot: "rotate-3", pos: "left-[28%] top-8 z-30", w: "w-[62%]" },
-  { t: templates[4], rot: "rotate-12", pos: "left-[40%] top-16 z-40", w: "w-[62%]" },
+  { t: templates[0]!, rot: "-rotate-12", pos: "left-0 top-10 z-10", w: "w-[62%]" },
+  { t: templates[2]!, rot: "-rotate-6", pos: "left-[14%] top-4 z-20", w: "w-[62%]" },
+  { t: templates[6]!, rot: "rotate-3", pos: "left-[28%] top-8 z-30", w: "w-[62%]" },
+  { t: templates[4]!, rot: "rotate-12", pos: "left-[40%] top-16 z-40", w: "w-[62%]" },
 ];
 
 const steps = [
