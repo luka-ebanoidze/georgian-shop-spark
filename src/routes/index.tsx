@@ -103,7 +103,7 @@ function HomePage() {
   return (
     <>
       {/* HERO */}
-      <section className="mx-auto max-w-6xl px-4 pb-16 pt-12 sm:px-6 sm:pb-24 sm:pt-20">
+      <section className="mx-auto max-w-6xl overflow-x-clip px-4 pb-16 pt-12 sm:px-6 sm:pb-24 sm:pt-20">
         <div className="grid items-center gap-14 lg:grid-cols-2">
           <div>
             <span className="inline-flex items-center gap-2 rounded-full border border-border bg-secondary/60 px-3 py-1.5 text-xs font-semibold text-primary">
